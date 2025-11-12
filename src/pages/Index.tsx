@@ -1,6 +1,5 @@
 import Navigation from "@/components/Navigation";
 import { Card } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import { Heart, Sparkles, Phone, Mail, MapPin } from "lucide-react";
 
 const Index = () => {
@@ -9,29 +8,25 @@ const Index = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-16 px-4">
-        <div className="container mx-auto text-center">
+      <section className="pt-24 pb-16 px-4 bg-gradient-to-b from-primary/5 to-background">
+        <div className="container mx-auto text-center max-w-5xl">
           <h1 className="text-5xl md:text-7xl font-bold text-primary mb-6">
             Metóda KVET®
           </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-8">
-            KVET® je jemná a veľmi účinná transformačná metóda, ktorej autorkou je Eva Ďurišová
-          </p>
-          <a 
-            href="https://kvantovetvorenie.sk/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="text-primary hover:text-accent transition-colors underline"
-          >
-            kvantovetvorenie.sk
-          </a>
-        </div>
-      </section>
-
-      {/* About Method Section */}
-      <section className="py-16 px-4 bg-secondary/30">
-        <div className="container mx-auto max-w-4xl">
-          <Card className="p-8">
+          <Card className="p-8 mb-6">
+            <p className="text-xl md:text-2xl text-card-foreground leading-relaxed mb-4">
+              KVET® je jemná a veľmi účinná transformačná metóda, ktorej autorkou je Eva Ďurišová
+            </p>
+            <a 
+              href="https://kvantovetvorenie.sk/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary hover:text-accent transition-colors underline font-medium"
+            >
+              kvantovetvorenie.sk
+            </a>
+          </Card>
+          <Card className="p-8 bg-card">
             <p className="text-lg text-card-foreground leading-relaxed">
               Ku klientovi pristupujem celostne z pohľadu, že myseľ a telo sú prepojené. Na choroby nazeráme cez psychosomatiku.
             </p>
@@ -161,73 +156,77 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Pricing */}
-      <section className="py-16 px-4 bg-primary/5">
-        <div className="container mx-auto max-w-2xl">
-          <Card className="p-8 text-center">
-            <h2 className="text-3xl font-bold text-primary mb-6">Cena terapie</h2>
-            <div className="text-5xl font-bold text-primary mb-4">120€</div>
-            <p className="text-xl text-muted-foreground mb-6">Trvanie terapie: 1,5 až 2 hodiny</p>
-            <p className="text-card-foreground leading-relaxed">
-              Terapia obsahuje úvodný rozhovor, samotnú terapiu a integráciu po terapii.
-            </p>
-          </Card>
-        </div>
-      </section>
-
-      {/* Contact */}
+      {/* Pricing & Contact Section */}
       <section className="py-16 px-4">
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-primary mb-12">
-            Kontakt
+            Cena terapie a kontakt
           </h2>
-          
-          <Card className="p-8">
-            <div className="space-y-6">
-              <div>
-                <h3 className="text-2xl font-semibold mb-4 text-card-foreground">Martina Strožová</h3>
-              </div>
 
-              <div className="flex items-start gap-3">
-                <MapPin className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
-                <div>
-                  <p className="text-card-foreground">Bajkalská 2337/7, 058 01 Poprad</p>
-                  <p className="text-muted-foreground mt-2">
-                    Miesto pôsobenia: Poprad, Zlaté Klasy (pri Senci)
-                  </p>
-                </div>
+          <div className="grid md:grid-cols-2 gap-6 mb-8">
+            <Card className="p-8">
+              <h3 className="text-2xl font-bold text-primary mb-4 text-center">Cena terapie</h3>
+              <div className="text-center mb-6">
+                <div className="text-5xl font-bold text-primary mb-3">120€</div>
+                <p className="text-lg text-muted-foreground">Trvanie: 1,5 až 2 hodiny</p>
               </div>
-
-              <div className="flex items-center gap-3">
-                <Phone className="w-6 h-6 text-primary flex-shrink-0" />
-                <a href="tel:0908306002" className="text-card-foreground hover:text-primary transition-colors">
-                  0908 306002
-                </a>
-              </div>
-
-              <div className="flex items-center gap-3">
-                <Mail className="w-6 h-6 text-primary flex-shrink-0" />
-                <a href="mailto:mata.st@centrum.sk" className="text-card-foreground hover:text-primary transition-colors">
-                  mata.st@centrum.sk
-                </a>
-              </div>
-
               <div className="pt-6 border-t border-border">
-                <p className="text-card-foreground leading-relaxed">
-                  V prípade záujmu ma kontaktujte mailom, alebo telefonicky.
+                <p className="text-card-foreground leading-relaxed text-center">
+                  Terapia obsahuje úvodný rozhovor, samotnú terapiu a integráciu po terapii.
                 </p>
               </div>
-            </div>
+            </Card>
+
+            <Card className="p-8">
+              <h3 className="text-2xl font-bold text-primary mb-6">Kontakt</h3>
+              <div className="space-y-4">
+                <div>
+                  <p className="font-semibold text-card-foreground mb-1">Martina Strožová</p>
+                  <p className="text-sm text-muted-foreground">Bajkalská 2337/7, 058 01 Poprad</p>
+                </div>
+
+                <div className="flex items-center gap-3">
+                  <Phone className="w-5 h-5 text-primary flex-shrink-0" />
+                  <a href="tel:0908306002" className="text-card-foreground hover:text-primary transition-colors">
+                    0908 306002
+                  </a>
+                </div>
+
+                <div className="flex items-center gap-3">
+                  <Mail className="w-5 h-5 text-primary flex-shrink-0" />
+                  <a href="mailto:mata.st@centrum.sk" className="text-card-foreground hover:text-primary transition-colors break-all">
+                    mata.st@centrum.sk
+                  </a>
+                </div>
+
+                <div className="pt-4 border-t border-border">
+                  <div className="flex items-start gap-3">
+                    <MapPin className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <p className="text-sm text-muted-foreground">
+                      Miesto pôsobenia: Poprad, Zlaté Klasy (pri Senci)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </Card>
+          </div>
+
+          <Card className="p-6 bg-accent/10 border-accent/20">
+            <p className="text-center text-card-foreground">
+              V prípade záujmu ma kontaktujte mailom alebo telefonicky.
+            </p>
           </Card>
         </div>
       </section>
 
       {/* Footer */}
       <footer className="py-8 px-4 bg-secondary/30 border-t border-border">
-        <div className="container mx-auto text-center">
-          <p className="text-muted-foreground text-sm">
-            <strong>Etický princíp:</strong> Všetky informácie ktoré sa počas terapie od klienta dozvedám zostávajú dôverné. Zaručujem, že všetko zostáva medzi mnou a klientom.
-          </p>
+        <div className="container mx-auto max-w-4xl">
+          <Card className="p-6 bg-card/50">
+            <p className="text-center text-card-foreground text-sm leading-relaxed">
+              <strong className="text-primary">Etický princíp:</strong> Všetky informácie ktoré sa počas terapie od klienta dozvedám zostávajú dôverné. Zaručujem, že všetko zostáva medzi mnou a klientom.
+            </p>
+          </Card>
         </div>
       </footer>
     </div>
