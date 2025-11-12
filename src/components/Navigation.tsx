@@ -22,6 +22,9 @@ const Navigation = () => {
             <Link to="/o-mne" className="text-foreground hover:text-primary transition-colors">
               O mne
             </Link>
+            <Link to="/kontakt" className="text-foreground hover:text-primary transition-colors">
+              Kontakt
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -51,6 +54,13 @@ const Navigation = () => {
               onClick={() => setIsOpen(false)}
             >
               O mne
+            </Link>
+            <Link
+              to="/kontakt"
+              className="block text-foreground hover:text-primary transition-colors"
+              onClick={() => setIsOpen(false)}
+            >
+              Kontakt
             </Link>
           </div>
         )}
