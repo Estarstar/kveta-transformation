@@ -15,7 +15,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/kveta-transformation">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/o-mne" element={<About />} />
