@@ -1,8 +1,8 @@
 import Navigation from "@/components/Navigation";
 import { Card } from "@/components/ui/card";
 import healingStones from "@/assets/healing-stones.jpg";
-import martinaPortrait from "@/assets/martina-portrait.png";
-import martinaCertificate from "@/assets/martina-certificate.png";
+import martinaPortrait from "@/assets/martina-portrait.jpg";
+import martinaCertificate from "@/assets/martina-certificate.jpg";
 
 const About = () => {
   return (
