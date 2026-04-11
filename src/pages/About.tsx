@@ -42,15 +42,15 @@ const About = () => {
           <Card className="p-8 bg-card">
             <div className="prose prose-lg max-w-none text-card-foreground">
               <p className="mb-4">
-                Pamätám si ako by to bolo včera, keď moja mama využila služby liečiteľa ktorý pracoval s energiou a ja vtedy ešte ako mladé dievča som jej povedala že mami ako môžeš veriť na také blbosti?
+                Pamätám si ako by to bolo včera, keď moja mama využila služby liečiteľa ktorý pracoval s energiou a ja vtedy ešte ako mladé dievča som jej spýtala, že mami ako môžeš veriť na také blbosti?
               </p>
               
               <p className="mb-4">
-                Po pár rokoch, keď za blížil môj rozvod (plnilo sa mi v mnou vyslovené odsúdenie, keď som v minulosti povedala že nechápem ako sa môžu ľudia rozvádzať keď majú malé deti? Tak mi to život priniesol, aby som pochopila. Chlapci mali vtedy 4 a 7 rokov. Keďže som bola na úplnom dne, rozhodla som sa aj ja vyskúšať pomoc liečiteľa. Vtedy som prvý krát pocítila silu energie. Postupne som v živote ešte prežila pár pádov, keď som natrafila na KVET. Prvý a druhý stupeň (vtedy boli iba 2 stupne) som prvý krát absolvovala pred 10 rokmi. Už vtedy som mala v hlave myšlienku že aj ja by som chcela pomáhať ľuďom.
+                Po pár rokoch, keď sa blížil môj rozvod (plnilo sa mi v mnou vyslovené odsúdenie, keď som v minulosti povedala, že nechápem ako sa môžu ľudia rozvádzať keď majú malé deti? Tak mi to život priniesol, aby som pochopila. Chlapci mali vtedy 4 a 7 rokov. Keďže som bola na úplnom dne, rozhodla som sa aj ja vyskúšať pomoc liečiteľa. Vtedy som prvý krát pocítila silu energie. Postupne som v živote ešte prežila pár pádov, keď som natrafila na KVET. Prvý a druhý stupeň (vtedy boli iba 2 stupne) som prvý krát absolvovala pred 10 rokmi. Už vtedy som mala v hlave myšlienku že aj ja by som chcela pomáhať ľuďom.
               </p>
               
               <p className="mb-4">
-                Pred pár rokmi, keď som pozorovala absolventov vyšších stupňov, som si hovorila, že aj ja by som chcela absolvovať celú cestu, ale finančne mi to nevychádzalo. Zmenilo sa to minulý rok, keď som zrazu prestala pochybovať a financie prišli. Pochopila som že všetko k nám chodí v ten správny moment a až vtedy som bola pripravená absolvovať celý kurz. Vďaka kurzu som vystúpila z role obete a pochopila som že ja sama si vytváram veci ktoré mi do života prichádzajú. Cítim vďačnosť aj za "drobnosti" ktoré som si predtým ani neuvedomovala.
+                Pred pár rokmi, keď som pozorovala absolventov vyšších stupňov, som si hovorila, že aj ja by som chcela absolvovať celú cestu, ale finančne mi to nevychádzalo. Zmenilo sa to minulý rok, keď som zrazu prestala pochybovať a financie prišli. Pochopila som, že všetko k nám chodí v ten správny moment a až vtedy som bola pripravená absolvovať celý kurz. Vďaka kurzu som vystúpila z role obete a pochopila som, že ja sama si vytváram veci ktoré mi do života prichádzajú. Cítim vďačnosť aj za "drobnosti", ktoré som si predtým ani neuvedomovala.
               </p>
               
               <p className="mb-4">
